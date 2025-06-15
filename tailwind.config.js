@@ -14,16 +14,16 @@ module.exports = {
       colors: {
         // Primary Colors
         primary: {
-          50: "#FFF9E6",
-          100: "#FFF0C2",
-          200: "#FFE699",
-          300: "#FFDB70",
-          400: "#FFD600",
-          500: "#F9B233",
-          600: "#ffb300",
-          700: "#ff9900",
-          800: "#ff8800",
-          900: "#ff7700",
+          50:  "#E6F9FF",
+          100: "#C2F0FF",
+          200: "#99E6FF",
+          300: "#70DBFF",
+          400: "#00D6FF",
+          500: "#33B9FF",
+          600: "#2DAAE1",
+          700: "#0099FF",
+          800: "#0088FF",
+          900: "#0077FF",
         },
         // Success
         success: {
@@ -68,27 +68,27 @@ module.exports = {
         },
         // Grey
         grey: {
-          50: "#F9FAFB",
-          100: "#F3F4F6",
-          200: "#E5E7EB",
-          300: "#D1D5DB",
-          400: "#9CA3AF",
-          500: "#6B7280",
-          600: "#5c6069",
-          700: "#374151",
-          800: "#252631",
-          900: "#21232e",
+          50:  "#F4F8FB", 
+          100: "#E6EEF5", 
+          200: "#CBDCE8", 
+          300: "#B0C9DA", 
+          400: "#90AFC3", 
+          500: "#70879D", 
+          600: "#5A6D82",
+          700: "#445162",
+          800: "#2F3743", 
+          900: "#1F252F",
         },
          // Background - أغمق ومتماسك أكثر
         background: {
-          light: "#F9FAFB",
-          dark: "#20212a",
+          light: "#E6F9FF",
+          dark: "#2DAAE1",
         },
       },
 
       backgroundImage: {
         "primary-gradient":
-          "linear-gradient(180deg, #ffb300 10%, #FFD600 100%)",
+          "linear-gradient(180deg, #0077FF 10%, #00D6FF 100%)",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
       },
 
@@ -127,9 +127,9 @@ module.exports = {
 
       boxShadow: {
         glow: "0 0 5px rgba(255, 255, 255, 0.7), 0 0 10px rgba(255, 255, 255, 0.5)",
-        primary: "0 0 5px rgba(255, 211, 0, 0.7), 0 0 10px rgba(255, 179, 0, 0.5)",
-        "primary-soft": "0 0 15px rgba(249, 178, 51, 0.15)",
-        "primary-strong": "0 0 25px rgba(249, 178, 51, 0.2)",
+        primary: "0 0 5px rgba(45, 174, 225, 0.7), 0 0 10px rgba(45, 174, 225, 0.5)",
+        "primary-soft": "0 0 15px rgba(45, 174, 225, 0.15)",
+        "primary-strong": "0 0 25px rgba(45, 174, 225, 0.2)",
         "card-light": "0 10px 30px -5px rgba(0, 0, 0, 0.1)",
         "card-dark": "0 10px 30px -5px rgba(0, 0, 0, 0.3)",
       },
